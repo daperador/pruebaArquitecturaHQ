@@ -32,7 +32,12 @@ public class Aplicacion {
     
 
     
-    /**
+    private boolean estado=true;
+
+
+
+
+				/**
     * @generated
     * 1-1-false
     */

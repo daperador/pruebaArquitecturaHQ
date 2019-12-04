@@ -49,13 +49,18 @@ public class Persona {
     //@Column(name = "edad")
     private Integer edad;
     
-    /**
+    private Boolean migrado;
+
+
+
+
+				/**
     * @generated
     * 1-1-false
     */
     
     //@Column(name = "estado")
-    private Boolean estado;
+    private boolean estado = true;
     
     /**
     * @generated
