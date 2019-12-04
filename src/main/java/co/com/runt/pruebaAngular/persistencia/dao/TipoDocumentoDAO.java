@@ -1,6 +1,8 @@
 package co.com.runt.pruebaAngular.persistencia.dao;
 
 import javax.persistence.*;
+import javax.ejb.Stateless;
+import co.com.runt.pruebaAngular.persistencia.entidad.TipoDocumento;
 
 /**
   *  
@@ -58,7 +60,7 @@ public class TipoDocumentoDAO {
      * @generated 
      */
     public void borrar(Long id){
-    	em.remove(em.find(TipoDocumento.class, id));
+    	em.find(TipoDocumento.class, id).setEstado(false);
     }
 	
 }

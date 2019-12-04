@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Date;
 import javax.persistence.*;
+import javax.ejb.Stateless;
+import co.com.runt.pruebaAngular.persistencia.entidad.Persona;
 
 /**
   *  
@@ -61,7 +63,7 @@ public class PersonaDAO {
      * @generated 
      */
     public void borrar(Long id){
-    	em.remove(em.find(Persona.class, id));
+    	em.find(Persona.class, id).setEstado(false);
     }
 	
 }

@@ -3,6 +3,8 @@ package co.com.runt.pruebaAngular.persistencia.dao;
 import java.util.List;
 import java.util.ArrayList;
 import javax.persistence.*;
+import javax.ejb.Stateless;
+import co.com.runt.pruebaAngular.persistencia.entidad.Aplicacion;
 
 /**
   *  
@@ -60,7 +62,7 @@ public class AplicacionDAO {
      * @generated 
      */
     public void borrar(Long id){
-    	em.remove(em.find(Aplicacion.class, id));
+    	em.find(Aplicacion.class, id).setEstado(false);
     }
 	
 }

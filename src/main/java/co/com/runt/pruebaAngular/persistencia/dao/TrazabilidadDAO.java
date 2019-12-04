@@ -2,6 +2,8 @@ package co.com.runt.pruebaAngular.persistencia.dao;
 
 import java.util.Date;
 import javax.persistence.*;
+import javax.ejb.Stateless;
+import co.com.runt.pruebaAngular.persistencia.entidad.Trazabilidad;
 
 /**
   *  
@@ -59,7 +61,7 @@ public class TrazabilidadDAO {
      * @generated 
      */
     public void borrar(Long id){
-    	em.remove(em.find(Trazabilidad.class, id));
+    	em.find(Trazabilidad.class, id).setEstado(false);
     }
 	
 }
