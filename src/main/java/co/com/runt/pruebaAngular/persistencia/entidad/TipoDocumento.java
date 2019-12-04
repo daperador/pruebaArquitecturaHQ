@@ -14,7 +14,7 @@ import lombok.Setter;
 @Entity
 @Table(name="TipoDocumento")//, schema="${schema}")
 @NamedQueries({
-	@NamedQuery(name="TipoDocumento.obtenerTodos", query="select e from TipoDocumento e")
+	@NamedQuery(name="TipoDocumento.obtenerTodos", query="select e from TipoDocumento e where e.estado=true")
 })
 public class TipoDocumento {
 

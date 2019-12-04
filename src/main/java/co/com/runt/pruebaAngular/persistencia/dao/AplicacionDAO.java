@@ -12,7 +12,6 @@ import co.com.runt.pruebaAngular.persistencia.entidad.Aplicacion;
   *  @generated	  
 */
 @Stateless
-@stateless 
 public class AplicacionDAO {
 
     @PersistenceContext
