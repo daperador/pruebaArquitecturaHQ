@@ -30,7 +30,12 @@ public class TipoDocumento {
     
 
     
-    private boolean estado=true;
+    private boolean esActivo=true;
+
+
+
+
+				private boolean estado=true;
 
 
 

@@ -62,7 +62,7 @@ public class AplicacionDAO {
      * @generated 
      */
     public void borrar(Long id){
-    	em.find(Aplicacion.class, id).setEstado(false);
+    	em.find(Aplicacion.class, id).setEsActivo(false);
     }
 	
 }

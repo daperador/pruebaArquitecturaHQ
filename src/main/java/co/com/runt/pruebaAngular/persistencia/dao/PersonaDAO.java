@@ -62,7 +62,7 @@ public class PersonaDAO {
      * @generated 
      */
     public void borrar(Long id){
-    	em.find(Persona.class, id).setEstado(false);
+    	em.find(Persona.class, id).setEsActivo(false);
     }
 	
 }

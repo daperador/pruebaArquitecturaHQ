@@ -61,7 +61,7 @@ public class TipoDocumentoDAO {
      * @generated 
      */
     public void borrar(Long id){
-    	em.find(TipoDocumento.class, id).setEstado(false);
+    	em.find(TipoDocumento.class, id).setEsActivo(false);
     }
 	
 }

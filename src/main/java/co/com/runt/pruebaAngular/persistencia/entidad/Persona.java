@@ -31,7 +31,9 @@ public class Persona {
     @SequenceGenerator(name = "PersonaGen", sequenceName = "Persona_SEQ",allocationSize = 1)
 	private Long id;
 
-    //@Column(name = "Persona_estado")
+    private boolean esActivo=true;
+
+				//@Column(name = "Persona_estado")
     private boolean estado=true;
 
     

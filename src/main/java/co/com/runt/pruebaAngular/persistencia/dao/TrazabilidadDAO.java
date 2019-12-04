@@ -62,7 +62,7 @@ public class TrazabilidadDAO {
      * @generated 
      */
     public void borrar(Long id){
-    	em.find(Trazabilidad.class, id).setEstado(false);
+    	em.find(Trazabilidad.class, id).setEsActivo(false);
     }
 	
 }

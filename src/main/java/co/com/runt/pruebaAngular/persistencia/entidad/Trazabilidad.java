@@ -31,7 +31,12 @@ public class Trazabilidad {
     
 
     
-    private boolean estado=true;
+    private boolean esActivo=true;
+
+
+
+
+				private boolean estado=true;
 
 
 
