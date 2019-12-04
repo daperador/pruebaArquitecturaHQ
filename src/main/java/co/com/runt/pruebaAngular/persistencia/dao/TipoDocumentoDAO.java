@@ -9,6 +9,7 @@ import co.com.runt.pruebaAngular.persistencia.entidad.TipoDocumento;
   *  @author daperador
   *  @generated	  
 */
+@Stateless
 @stateless 
 public class TipoDocumentoDAO {
 

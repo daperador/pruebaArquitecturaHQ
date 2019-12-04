@@ -11,6 +11,7 @@ import co.com.runt.pruebaAngular.persistencia.entidad.Aplicacion;
   *  @author daperador
   *  @generated	  
 */
+@Stateless
 @stateless 
 public class AplicacionDAO {
 

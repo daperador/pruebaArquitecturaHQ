@@ -12,6 +12,7 @@ import co.com.runt.pruebaAngular.persistencia.entidad.Persona;
   *  @author daperador
   *  @generated	  
 */
+@Stateless
 @stateless 
 public class PersonaDAO {
 

@@ -10,6 +10,7 @@ import co.com.runt.pruebaAngular.persistencia.entidad.Trazabilidad;
   *  @author daperador
   *  @generated	  
 */
+@Stateless
 @stateless 
 public class TrazabilidadDAO {
 
